@@ -1,0 +1,115 @@
+@font-face {
+    font-family: 'Bogaloo';
+    src: url('../fonts/Boogaloo-Regular.ttf') format('truetype');
+    font-style: normal;
+    font-weight: normal;
+  }
+
+
+header{
+    background-color: black;
+    border-radius: 20px;
+    border: greenyellow;
+}
+
+body{
+background-color: black;
+}
+
+.logo{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.logo img{
+    width: 150px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 100px;
+}
+
+.welcome{
+    text-align: center;
+    padding: 20px;
+    color: white;
+    font-family: Bogaloo;
+    background-color: green;
+    border-radius: 20px;
+    font-size: 30px;
+    padding: 0px;
+}
+  nav{
+  display: flex; /*Modo Flexbox*/
+  justify-content: space-evenly;
+  align-items: center;
+  font-size: 25px;
+  background-color: black;
+  width: 100%;
+  border-radius: 10px;
+}
+nav a {
+    color: white;
+    display: flexbox;
+    justify-content: space-evenly;
+    text-decoration: none;
+    font-family: Bogaloo;
+    font-size: 30px;
+}
+
+nav a:hover {
+    text-decoration: underline;
+}
+.tarjeta1{
+    display: flex;
+   justify-content: center;
+}
+
+.card1{
+    margin: 20px;
+    width: 300px;
+    border-radius: 20px;
+    overflow: hidden;
+    box-shadow: 0px 5px 10px #01ff55;
+    font-family: Paprika;
+    background-color: rgb(160, 255, 160);
+}
+.card1 h1{
+    color: rgb(7, 7, 7);
+    text-align: center;
+    font-family: Bogaloo;
+    letter-spacing: 0.2em;
+}
+
+.card1 h2{
+    margin-left: 10px;
+    font-family: Bogaloo;
+}
+
+.card1 p{
+    text-align: center;
+    font-family: Bogaloo;
+    font-size: 20px;
+}
+.card1 img{
+    width: 100%;
+}
+
+.card1:hover{
+    transform: scale(1.05);
+    background-color: rgb(113, 204, 133);
+}
+
+.tarjetaProd{
+    display: flex;
+    justify-content: center;
+}
+footer{
+    text-align: center;
+    padding: 0px;
+    color: white;
+    font-family: Bogaloo;
+    border-radius: 20px;
+    font-size: 20px;
+    background-color: rgb(0, 109, 0);
+}
